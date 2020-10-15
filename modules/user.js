@@ -2,7 +2,7 @@
 /* eslint-disable valid-typeof */
 /* eslint-disable no-console */
 
-import { checkType, nonEmptyString, numberInRange } from './check.js'
+import { checkType, nonEmptyString, numberInRange } from '../modules/check.js'
 
 export const user = {
     firstName: "Default User first name",
