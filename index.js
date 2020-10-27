@@ -2,8 +2,8 @@
 /* eslint-disable valid-typeof */
 /* eslint-disable no-console */
 
-import { validateObject, dumpErrors} from './modules/validate.js'
-import { user, userScheme } from './modules/user.js'
+import { validateObject, dumpErrors} from './modules/validators/validate.js'
+import { user, userScheme } from './modules/validation/schemes/user.js'
 
 
 user.firstName = "Mickael";
